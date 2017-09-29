@@ -3,7 +3,7 @@ word.match(/\b[aeiou]/i) ? true : false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-text.match(/\bun+\b.*ing\b/) 
+text.match(/\bun+\b.*ing\b/)
 return text
 end
 
